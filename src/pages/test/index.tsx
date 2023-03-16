@@ -18,14 +18,13 @@ function Content(props) {
 const App: React.FC = () => {
   return (
 
-    <PageContainer ghost>
-
+    <div>
       <Title name="新闻1"></Title>
       <Content content="这是内容1"></Content>
 
       <Title name="新闻2"></Title>
       <Content content="这是内容2"></Content>
-    </PageContainer>
+    </div>
 
   );
 
